@@ -1,0 +1,50 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html{
+  font-size: 62.5%;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: lightslategray;
+  font-family: monospace;
+  
+}
+ .temp{
+   padding-left: 25%;
+  
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h1{
+  font-size: 5rem;
+  text-decoration: underline;
+}
+p{font-size: 3rem;}
+
+h1,p{
+  margin: 7rem;
+  text-align: center;
+}
+input{
+  width: 50%;
+  height: 5rem;
+  font-size: 4rem;
+  background-color: lightblue;
+  margin: 1rem;
+}
+label{
+  font-size: 3rem;
+  margin-right: 3rem;
+}
